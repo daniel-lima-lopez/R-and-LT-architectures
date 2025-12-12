@@ -9,7 +9,7 @@ As for the installation, the project should be cloned as follows:
 git clone git@github.com:daniel-lima-lopez/R-and-LT-architectures.git
 ```
 
-Then, you may want to install the requiered libraries using the [requierements.txt](/requierements.txt) file:
+Then, you may want to install the requiered libraries using the [requirements.txt](/requirements.txt) file:
 ```bash
 pip install -r requirements.txt
 ```
