@@ -22,12 +22,12 @@ This repository includes the scripts with the implementation of all the architec
 ## Data Availability
 The datasets used in this article are available on the TensorFlow library. The image processing procedures to work with the frequency representation are included on each notebook.
 
-| DATASET | SOURCE | COMMAND |
+| DATASET | SOURCE | LIBRARY REFERENCE |
 |---------|--------|---------|
-| MNIST | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
-| Fashion-MNIST | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
-| CIFAR-10 | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
-| CIFAR-100 | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
+| MNIST | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist |
+| Fashion-MNIST | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist) | from tensorflow.keras.datasets import fashion_mnist |
+| CIFAR-10 | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/cifar10](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/cifar10) | from tensorflow.keras.datasets import cifar10 |
+| CIFAR-100 | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/cifar100](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/cifar100) | from tensorflow.keras.datasets import cifar100 |
 
 ## Installation
 The implementation was carried out using Keras with Python version 3.9.19 (newer versions does not allow GPU usage on Windows).
