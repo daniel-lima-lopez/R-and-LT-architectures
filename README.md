@@ -1,12 +1,12 @@
 # R-and-LT-architectures
 
-*Submission ID:* 9912
+**Submission ID:** 9912
 
-*Authors:* 
+**Authors:** 
  - Daniel Lima López
  - Pilar Gómez Gil
 
-*Affiliations:* Daniel Lima López was with the National Institute of Astrophysics, Optics and Electronics during the development of this work; Pilar Gómez Gil is with the National Institute of Astrophysics, Optics and Electronics.
+**Affiliations:** Daniel Lima López was with the National Institute of Astrophysics, Optics and Electronics during the development of this work; Pilar Gómez Gil is with the National Institute of Astrophysics, Optics and Electronics.
 
 This repository contains the code for the experiments described in the article **"On the building of efficient Fourier Convolutional Neural Networks"** authored by [Daniel Lima-López](https://scholar.google.com/citations?user=x9tSGgIAAAAJ&hl=es) and [Pilar Gómez-Gil](https://scholar.google.com/citations?user=M3yVI1oAAAAJ&hl=es). The repository incldes the TensorFlow implementation of all the architectures presented in the article.
 
@@ -16,6 +16,18 @@ This repository includes the scripts with the implementation of all the architec
 | SCRIPT | DESCRIPTION |
 |--------|-------------|
 | [requierements.txt](requierements.txt) | This file includes the versions of each python library used on the scripts |
+| [R_LT_EF_CNN.ipynb](R_LT_EF_CNN.ipynb) | This notebook contains the definition of all tensorflo clases used to implement each layer in the EF-CNN architectures. Moreover, it also includes the definition of each architecture and an example run. |
+| [R_LT_SB_CNN.ipynb](R_LT_SB_CNN.ipynb) | This notebook contains the definition of all tensorflo clases used to implement each layer in the SB-CNN architectures. Moreover, it also includes the definition of each architecture and an example run. |
+
+## Data Availability
+The datasets used in this article are available on the TensorFlow library. The image processing procedures to work with the frequency representation are included on each notebook.
+
+| DATASET | SOURCE | COMMAND |
+|---------|--------|---------|
+| MNIST | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
+| Fashion-MNIST | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
+| CIFAR-10 | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
+| CIFAR-100 | [https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist) | from tensorflow.keras.datasets import mnist\ndata= mnist.load_data() |
 
 ## Installation
 The implementation was carried out using Keras with Python version 3.9.19 (newer versions does not allow GPU usage on Windows).
