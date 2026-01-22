@@ -49,4 +49,12 @@ cd R-and-LT-architectures
 
 ## Usage
 
-Notebooks [EF-R_LT_EF_CNN.ipynb](/R_LT_EF_CNN.ipynb) and [SB-CNN](/R_LT_EF_CNN.ipynb) present examples of the R and LT-architectures of EF-CNN and SB-CNN, respectively.
+Notebooks [R_LT_EF_CNN.ipynb](/R_LT_EF_CNN.ipynb) and [R_LT_SB_CNN](/R_LT_SB_CNN.ipynb) present examples of the R and LT-architectures of EF-CNN and SB-CNN, respectively.
+
+
+
+The notebooks [R_LT_EF_CNN.ipynb](/R_LT_EF_CNN.ipynb) and [R_LT_SB_CNN](/R_LT_SB_CNN.ipynb) provide examples of the R and LT architectures for EF-CNN and SB-CNN, respectively.
+
+To run the experiments, only the first cell needs to be executed initially, as it loads all required libraries and defines the necessary classes and auxiliary functions. After that, you can selectively run the cells corresponding to the section of interest, where each section represents a specific architecture and its associated experiments.
+
+
