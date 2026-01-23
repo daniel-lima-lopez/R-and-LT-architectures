@@ -2,13 +2,15 @@
 
 **Submission ID:** 9912
 
+ **IEEE Latin America Transactions**
+
 **Authors:** 
  - Daniel Lima López
  - Pilar Gómez Gil
 
 **Affiliations:** Daniel Lima López was with the National Institute of Astrophysics, Optics and Electronics during the development of this work; Pilar Gómez Gil is with the National Institute of Astrophysics, Optics and Electronics.
 
-This repository contains the code for the experiments described in the article **"On the building of efficient Fourier Convolutional Neural Networks"** authored by [Daniel Lima-López](https://scholar.google.com/citations?user=x9tSGgIAAAAJ&hl=es) and [Pilar Gómez-Gil](https://scholar.google.com/citations?user=M3yVI1oAAAAJ&hl=es). The repository incldes the TensorFlow implementation of all the architectures presented in the article.
+This repository contains the code for the experiments described in the article **"On the building of efficient Fourier Convolutional Neural Networks"** authored by [Daniel Lima-López](https://scholar.google.com/citations?user=x9tSGgIAAAAJ&hl=es) and [Pilar Gómez-Gil](https://scholar.google.com/citations?user=M3yVI1oAAAAJ&hl=es). The repository includes the TensorFlow implementation of all the architectures presented in the article.
 
 ## Included Scripts
 This repository includes the scripts with the implementation of all the architectures presented in this article along with an example run on each notebook.
